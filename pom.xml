@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 <!-- project coordinates -->
         <groupId>com.kdp.java</groupId>
         <artifactId>Java-Projects</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
        
         <packaging>pom</packaging>
 
