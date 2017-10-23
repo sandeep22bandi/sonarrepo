@@ -20,7 +20,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
      </repository>
 
   <snapshotRepository>
-         <id>Snapshots</id>
+         <id>snapshots</id>
          <name>Snapshots</name>
          <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
      </snapshotRepository>
