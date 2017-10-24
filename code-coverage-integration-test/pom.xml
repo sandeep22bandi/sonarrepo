@@ -5,7 +5,6 @@
     <parent>
         <groupId>com.kdp.java</groupId>
          <artifactId>Java-Projects</artifactId>
-         <packaging>pom</packaging>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
