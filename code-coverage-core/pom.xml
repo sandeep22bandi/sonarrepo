@@ -67,12 +67,7 @@
                 </formats>
             </configuration>
 		
-                <execution>  
-                    <phase>package</phase>  
-                    <goals>  
-                        <goal>cobertura</goal>  
-                    </goals>  
-                </execution>  
+         
             
         </plugin>
         
