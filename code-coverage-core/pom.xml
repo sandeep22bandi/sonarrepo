@@ -63,7 +63,6 @@
             <configuration>
                 <check></check>
                 <formats>
-                    <format>html</format>
                     <format>xml</format>
                 </formats>
             </configuration>
