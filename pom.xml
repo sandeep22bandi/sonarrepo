@@ -101,7 +101,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
+		</plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.5.2</version>
+        </plugin>	
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -132,12 +137,22 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
         
         
  <reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.5.2</version>
+            <configuration>
+                <check></check>
+                <formats>
+                    <format>html</format>
+                    <format>xml</format>
+                </formats>
+            </configuration>
+        </plugin>
+        
+    </plugins>
 	</reporting>
 
 <distributionManagement>
