@@ -17,8 +17,8 @@
             <artifactId>junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>elff</groupId>
-            <artifactId>code-coverage-core</artifactId>
+            <groupId>com.kdp.java</groupId>
+            <artifactId>Java-Projects</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
